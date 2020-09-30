@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model ravesoft\seo\models\Seo */
 
-$this->title = Yii::t('yee/seo', 'Update SEO Record');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('yee/seo', 'SEO'), 'url' => ['index']];
+$this->title = Yii::t('rave/seo', 'Update SEO Record');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('rave/seo', 'SEO'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 

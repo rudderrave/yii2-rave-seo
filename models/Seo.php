@@ -81,18 +81,18 @@ class Seo extends ActiveRecord implements OwnerAccess
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yee', 'ID'),
-            'url' => Yii::t('yee', 'Url'),
-            'title' => Yii::t('yee', 'Title'),
-            'author' => Yii::t('yee', 'Author'),
-            'keywords' => Yii::t('yee/seo', 'Keywords'),
-            'description' => Yii::t('yee', 'Description'),
-            'index' => Yii::t('yee/seo', 'Index'),
-            'follow' => Yii::t('yee/seo', 'Follow'),
-            'created_by' => Yii::t('yee', 'Created By'),
-            'created_at' => Yii::t('yee', 'Created'),
-            'updated_at' => Yii::t('yee', 'Updated'),
-            'updated_by' => Yii::t('yee', 'Updated By'),
+            'id' => Yii::t('rave', 'ID'),
+            'url' => Yii::t('rave', 'Url'),
+            'title' => Yii::t('rave', 'Title'),
+            'author' => Yii::t('rave', 'Author'),
+            'keywords' => Yii::t('rave/seo', 'Keywords'),
+            'description' => Yii::t('rave', 'Description'),
+            'index' => Yii::t('rave/seo', 'Index'),
+            'follow' => Yii::t('rave/seo', 'Follow'),
+            'created_by' => Yii::t('rave', 'Created By'),
+            'created_at' => Yii::t('rave', 'Created'),
+            'updated_at' => Yii::t('rave', 'Updated'),
+            'updated_by' => Yii::t('rave', 'Updated By'),
         ];
     }
 

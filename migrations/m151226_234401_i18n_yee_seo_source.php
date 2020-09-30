@@ -2,12 +2,12 @@
 
 use ravesoft\db\SourceMessagesMigration;
 
-class m151226_234401_i18n_yee_seo_source extends SourceMessagesMigration
+class m151226_234401_i18n_rave_seo_source extends SourceMessagesMigration
 {
 
     public function getCategory()
     {
-        return 'yee/seo';
+        return 'rave/seo';
     }
 
     public function getMessages()

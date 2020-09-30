@@ -12,7 +12,7 @@ use yii\widgets\Pjax;
 /* @var $searchModel ravesoft\seo\models\search\SeoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('yee/seo', 'Search Engine Optimization');
+$this->title = Yii::t('rave/seo', 'Search Engine Optimization');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="seo-index">
@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row">
         <div class="col-sm-12">
             <h3 class="lte-hide-title page-title"><?= Html::encode($this->title) ?></h3>
-            <?= Html::a(Yii::t('yee', 'Add New'), ['/seo/default/create'], ['class' => 'btn btn-sm btn-primary']) ?>
+            <?= Html::a(Yii::t('rave', 'Add New'), ['/seo/default/create'], ['class' => 'btn btn-sm btn-primary']) ?>
         </div>
     </div>
 
